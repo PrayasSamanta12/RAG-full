@@ -1,0 +1,18 @@
+langchain
+langchain-groq
+faiss-cpu
+tiktoken
+langchain-community
+langchain-openai
+chromadb
+sentence-transformers
+pypdf
+python-dotenv
+pymupdf
+python-docx
+docx2txt
+matplotlib
+numpy
+## Embedding libraries
+langchain-huggingface
+hf_xet
