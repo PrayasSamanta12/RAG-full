@@ -572,6 +572,7 @@ dependencies = [
     { name = "langchain-groq" },
     { name = "langchain-huggingface" },
     { name = "langchain-openai" },
+    { name = "langchain-tavily" },
     { name = "langgraph" },
     { name = "langgraph-checkpoint" },
     { name = "langgraph-checkpoint-sqlite" },
@@ -604,6 +605,7 @@ requires-dist = [
     { name = "langchain-groq", specifier = ">=1.0.0" },
     { name = "langchain-huggingface", specifier = ">=1.0.1" },
     { name = "langchain-openai", specifier = ">=1.0.2" },
+    { name = "langchain-tavily", specifier = ">=0.2.17" },
     { name = "langgraph", specifier = ">=1.0.2" },
     { name = "langgraph-checkpoint", specifier = ">=3.0.1" },
     { name = "langgraph-checkpoint-sqlite", specifier = ">=3.0.3" },
@@ -1531,6 +1533,21 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/b3/3c/edb7ffca76fdcfd938ce8380bf8ec79a0a8be41ba7fdbf6f9fe1cb5fd1a8/langchain_openai-1.0.2.tar.gz", hash = "sha256:621e8295c52db9a1fc74806a0bd227ea215c132c6c5e421d2982c9ee78468769", size = 1025578, upload-time = "2025-11-03T14:08:32.121Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/78/9b/7af1d539a051d195c5ecc5990ebd483f208c40f75a8a9532846d16762704/langchain_openai-1.0.2-py3-none-any.whl", hash = "sha256:b3eb9b82752063b46452aa868d8c8bc1604e57631648c3bc325bba58d3aeb143", size = 81934, upload-time = "2025-11-03T14:08:30.655Z" },
+]
+
+[[package]]
+name = "langchain-tavily"
+version = "0.2.17"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "aiohttp" },
+    { name = "langchain" },
+    { name = "langchain-core" },
+    { name = "requests" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/e6/32/f7b5487efbcd5fca5d4095f03dce7dcf0301ed81b2505d9888427c03619b/langchain_tavily-0.2.17.tar.gz", hash = "sha256:738abd790c50f19565023ad279c8e47e87e1aeb971797fec30a614b418ae6503", size = 25298, upload-time = "2026-01-18T13:09:04.112Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/35/f9/bb6f1cea2a19215e4169a3bcec3af707ff947cf62f6ef7d28e7280f03e29/langchain_tavily-0.2.17-py3-none-any.whl", hash = "sha256:da4e5e7e328d054dc70a9c934afa1d1e62038612106647ff81ad8bfbe3622256", size = 30734, upload-time = "2026-01-18T13:09:03.1Z" },
 ]
 
 [[package]]
